@@ -1,0 +1,18 @@
+Coloque as imagens nesta pasta com os seguintes nomes:
+
+  hero-bg.jpg       → foto de fundo do banner principal (sugestão: área externa ou fachada)
+  historia-bg.jpg   → foto de fundo da seção "Nossa História" (sugestão: ambiente interno)
+  quem-somos.jpg    → foto para a seção "Quem Somos" (sugestão: equipe ou sala de estar)
+  unidade-1.jpg     → foto da Unidade 1
+  unidade-2.jpg     → foto da Unidade 2
+  galeria-1.jpg     → foto da galeria (área de convivência)
+  galeria-2.jpg     → foto da galeria (quarto)
+  galeria-3.jpg     → foto da galeria (jardim)
+  galeria-4.jpg     → foto da galeria (refeitório)
+  galeria-5.jpg     → foto da galeria (atividades)
+  galeria-6.jpg     → foto da galeria (espaço externo)
+
+Tamanhos recomendados:
+  hero-bg.jpg / historia-bg.jpg : 1920x1080px
+  quem-somos.jpg / unidade-*.jpg: 800x600px
+  galeria-*.jpg                 : 600x450px

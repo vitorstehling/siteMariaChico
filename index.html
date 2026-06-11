@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lar Maria e Chicho – Cuidado com Amor</title>
+  <link rel="icon" type="image/png" href="img/logo.png" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ========== TOPBAR ========== -->
+  <div id="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>Rua das Flores, 100 – Bairro Alegre, BH – MG</span>
+      </div>
+      <div class="topbar-divider">|</div>
+      <div class="topbar-item">
+        <i class="fas fa-phone"></i>
+        <span>(31) 99999-0000</span>
+      </div>
+      <div class="topbar-divider">|</div>
+      <div class="topbar-item">
+        <a onclick="openWhatsApp()" class="topbar-wa" aria-label="WhatsApp">
+          <i class="fab fa-whatsapp"></i>
+          <span>WhatsApp</span>
+        </a>
+      </div>
+      <div class="topbar-item">
+        <i class="fas fa-envelope"></i>
+        <span>contato@larmariaechicho.com.br</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== HERO ========== -->
+  <section id="hero">
+    <div class="hero-overlay"></div>
+
+    <!-- Logo fixada no canto esquerdo -->
+    <div class="hero-logo-wrap">
+      <img src="img/logo.png" alt="Lar Maria e Chicho" class="hero-logo" onerror="this.style.display='none'" />
+    </div>
+
+    <!-- Conteúdo centralizado na página -->
+    <div class="hero-content">
+      <h1>Sejam Bem-Vindos!</h1>
+      <p class="hero-proposito">
+        "Oferecer o cuidado que nossos avós mereciam e o acolhimento que as famílias precisam."
+      </p>
+    </div>
+  </section>
+
+  <!-- ========== QUEM SOMOS ========== -->
+  <section id="quem-somos">
+    <div class="container section-grid">
+      <div class="section-text">
+        <span class="tag">Quem Somos</span>
+        <h2 class="h2-smaller">Nascemos de uma história real. Crescemos para estender a sua família</h2>
+        <p>
+          O Lar Maria &amp; Chico nasceu de uma história real. Durante muito tempo, cuidamos dos
+          nossos avós em casa, acreditando que o ambiente familiar era tudo o que eles precisavam.
+          Mas a vida moderna é corrida, e o carinho, por si só, não conseguia preencher a falta de
+          acessibilidade, de estímulos e de atividades adequadas.
+        </p>
+        <p>
+          Percebemos que, às vezes, proteger quem amamos dentro de quatro paredes acaba limitando
+          o seu mundo — e eles também precisam ver a luz do dia, respirar ar fresco e se movimentar.
+          Foi quando vivemos a transição para um lar especializado que tudo mudou. Assim como as
+          crianças florescem na escola, nossos idosos florescem quando têm uma rotina viva: exercitam
+          o corpo, ocupam a mente, conversam com amigos e recebem atenção profissional dedicada.
+        </p>
+        <p>
+          O Lar Maria &amp; Chico não é um lugar de passagem; é a extensão da sua família. Criamos
+          este espaço para oferecer a outras famílias a paz de espírito que nós tanto buscávamos.
+          Aqui, o seu amor ganha o suporte que a rotina de hoje não permite dar sozinho.
+        </p>
+        <button class="btn-primary" onclick="openWhatsApp()">Fale Conosco</button>
+      </div>
+      <div class="section-image">
+        <video
+          src="video/1000106345 (1).mp4"
+          controls
+          muted
+          autoplay
+          loop
+          playsinline
+          class="section-video"
+          aria-label="Interior acolhedor do lar"
+        ></video>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVIÇOS ========== -->
+  <section id="servicos">
+    <div class="container">
+      <div class="section-header">
+        <span class="tag">Nossos Serviços</span>
+        <h2>Descubra o que temos a oferecer</h2>
+      </div>
+      <div class="cards-grid">
+
+        <div class="card">
+          <div class="card-icon"><i class="fas fa-home"></i></div>
+          <h3>Hospedagem Permanente</h3>
+          <p>Ambiente acolhedor, ideal para pessoas que necessitam de apoio para atividades do cotidiano e que buscam companhia para dias mais leves e agradáveis.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"><i class="fas fa-calendar-check"></i></div>
+          <h3>Hospedagem Temporária</h3>
+          <p>Ideal para idosos que precisam de assistência temporária, como fins de semana, reabilitação pós-operatória ou adaptação temporária.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"><i class="fas fa-sun"></i></div>
+          <h3>Centro-Dia</h3>
+          <p>Recebemos o idoso para passar o dia com acompanhamento da nossa equipe, incluindo refeições e atividades programadas, retornando para casa ao final do dia.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"><i class="fas fa-user-md"></i></div>
+          <h3>Equipe Multidisciplinar</h3>
+          <p>Cuidadores 24h, fisioterapeutas, terapeutas ocupacionais, nutricionistas, musicoterapeutas e médico geriatra à disposição dos nossos residentes.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"><i class="fas fa-utensils"></i></div>
+          <h3>Serviços Completos</h3>
+          <p>6 refeições diárias, lavanderia, roupa de cama e banho, internet Wi-Fi, jogos, filmes e musicoterapia em uma estrutura completamente adaptada.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"><i class="fas fa-star"></i></div>
+          <h3>Comodidade</h3>
+          <p>Manicure, cabeleireiro, convênios com farmácias, transporte acessível e acompanhamento externo para maior comodidade dos hóspedes e famílias.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALERIA ========== -->
+  <section id="galeria">
+    <div class="container">
+      <div class="section-header">
+        <span class="tag">Galeria</span>
+        <h2>Conheça nosso espaço</h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item"><img src="img/galeria-1.jpg" alt="Área de convivência" /></div>
+        <div class="gallery-item"><img src="img/galeria-2.jpg" alt="Quarto confortável" /></div>
+        <div class="gallery-item"><img src="img/galeria-3.jpg" alt="Jardim" /></div>
+        <div class="gallery-item"><img src="img/galeria-4.jpg" alt="Refeitório" /></div>
+        <div class="gallery-item"><img src="img/galeria-5.jpg" alt="Atividades recreativas" /></div>
+        <div class="gallery-item"><img src="img/galeria-6.jpg" alt="Espaço externo" /></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== UNIDADES ========== -->
+  <section id="unidades">
+    <div class="container">
+      <div class="section-header">
+        <span class="tag">Explore</span>
+        <h2>Nossas Unidades</h2>
+        <p>Estrutura de alta qualidade para garantir o máximo conforto e bem-estar.</p>
+      </div>
+      <div class="unidades-grid">
+        <div class="unidade-card">
+          <div class="unidade-img">
+            <img src="img/unidade-1.jpg" alt="Unidade 1" />
+            <div class="unidade-badge">Unidade 1</div>
+          </div>
+          <div class="unidade-body">
+            <h3>Unidade 1</h3>
+            <p><i class="fas fa-map-marker-alt"></i> Rua das Flores, 100 – Bairro Alegre<br />Belo Horizonte – MG</p>
+            <button class="btn-primary" onclick="openWhatsApp()">Ver Mais</button>
+          </div>
+        </div>
+        <div class="unidade-card">
+          <div class="unidade-img">
+            <img src="img/unidade-2.jpg" alt="Unidade 2" />
+            <div class="unidade-badge">Unidade 2</div>
+          </div>
+          <div class="unidade-body">
+            <h3>Unidade 2</h3>
+            <p><i class="fas fa-map-marker-alt"></i> Av. Esperança, 200 – Bairro Verde<br />Belo Horizonte – MG</p>
+            <button class="btn-primary" onclick="openWhatsApp()">Ver Mais</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== NOSSA HISTÓRIA ========== -->
+  <section id="historia">
+    <div class="historia-overlay"></div>
+    <div class="container historia-content">
+      <span class="tag tag-light">Nossa História</span>
+      <h2>Lar Maria &amp; Chicho</h2>
+      <p>
+        Há anos, o Lar Maria e Chicho se dedica a criar um ambiente acolhedor e
+        seguro para nossos residentes. Priorizamos a qualidade no atendimento,
+        respeitando a individualidade de cada pessoa com carinho e responsabilidade.
+      </p>
+      <p>
+        Visite-nos e descubra como podemos fazer a diferença na vida dos seus entes
+        queridos, tratando-os com o respeito e a atenção que merecem.
+      </p>
+      <blockquote>"Um lugar de cuidado, amor e dedicação."</blockquote>
+      <button class="whatsapp-btn" onclick="openWhatsApp()">
+        <i class="fab fa-whatsapp"></i> Saiba Mais
+      </button>
+    </div>
+  </section>
+
+  <!-- ========== CONTATO ========== -->
+  <section id="contato">
+    <div class="container contato-grid">
+      <div class="contato-info">
+        <span class="tag">Contato</span>
+        <h2>Agende Sua Visita</h2>
+        <div class="info-item">
+          <i class="fas fa-phone"></i>
+          <div>
+            <strong>Telefone</strong>
+            <p>(31) 99999-0000</p>
+            <p>(31) 99999-0001</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <strong>E-mail</strong>
+            <p>contato@larmariaechicho.com.br</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <strong>Unidade 1</strong>
+            <p>Rua das Flores, 100 – Bairro Alegre, BH – MG</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <strong>Unidade 2</strong>
+            <p>Av. Esperança, 200 – Bairro Verde, BH – MG</p>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+          <a onclick="openWhatsApp()" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="contato-form">
+        <h3>Envie uma mensagem</h3>
+        <form id="form-contato" onsubmit="submitForm(event)">
+          <div class="form-group">
+            <label for="nome">Nome completo</label>
+            <input type="text" id="nome" placeholder="Seu nome" required />
+          </div>
+          <div class="form-group">
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" placeholder="(00) 00000-0000" required />
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="seu@email.com" />
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" rows="4" placeholder="Como podemos ajudar?" required></textarea>
+          </div>
+          <button type="submit" class="btn-primary btn-full">Enviar Mensagem</button>
+          <p id="form-feedback" class="form-feedback"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <div class="container footer-inner">
+      <p class="logo footer-logo">Lar <span>Maria &amp; Chicho</span></p>
+      <p>Todos os Direitos Reservados &copy; <span id="year"></span> · Lar Maria e Chicho</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp flutuante -->
+  <button class="wa-float" onclick="openWhatsApp()" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
