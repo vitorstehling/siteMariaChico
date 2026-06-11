@@ -564,7 +564,20 @@ footer p { margin: 0; font-size: .85rem; }
   .topbar-inner { justify-content: flex-start; gap: .4rem .8rem; }
   .topbar-item span { font-size: .75rem; }
 
-  .hero-logo-wrap { display: none; }
+  .hero-logo-wrap {
+    position: static;
+    transform: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: .5rem;
+  }
+
+  .hero-logo { height: 120px; }
+
+  #hero {
+    flex-direction: column;
+    justify-content: center;
+  }
 
   .cards-grid { grid-template-columns: 1fr; }
   .gallery-grid { grid-template-columns: repeat(2, 1fr); }
