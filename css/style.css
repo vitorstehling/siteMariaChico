@@ -271,6 +271,7 @@ section { padding: 5rem 0; }
   inset: 0;
   background: url('../img/hero-bg.jpg') center center / cover no-repeat;
   opacity: .15;
+  pointer-events: none;
 }
 
 .promocao-content {
@@ -609,6 +610,7 @@ footer p { margin: 0; font-size: .85rem; }
   .section-image .section-video { height: 280px; }
   .contato-grid { grid-template-columns: 1fr; gap: 2.5rem; }
   .unidades-grid { grid-template-columns: 1fr; }
+  #promocao { background: var(--primary) !important; }
 }
 
 @media (max-width: 700px) {
