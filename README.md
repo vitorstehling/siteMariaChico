@@ -1,4 +1,4 @@
-# Lar Maria e Chicho – Site Institucional
+# Lar Maria e Chico – Site Institucional
 
 Site estático (HTML/CSS/JS) inspirado no layout da [Amare](https://amare.net.br).
 
