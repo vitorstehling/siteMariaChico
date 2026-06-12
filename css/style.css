@@ -238,7 +238,7 @@ section { padding: 5rem 0; }
 /* ============================================
    QUEM SOMOS
    ============================================ */
-#quem-somos { background: var(--light); }
+#quem-somos { background: var(--light); padding-top: 2.5rem; }
 
 .section-grid {
   display: grid;
@@ -254,6 +254,58 @@ section { padding: 5rem 0; }
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   object-fit: cover;
+}
+
+/* ============================================
+   PROMOÇÃO
+   ============================================ */
+#promocao {
+  position: relative;
+  background: var(--primary);
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.promocao-overlay {
+  position: absolute;
+  inset: 0;
+  background: url('../img/hero-bg.jpg') center center / cover no-repeat;
+  opacity: .15;
+}
+
+.promocao-content {
+  position: relative;
+  z-index: 1;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.promocao-icon {
+  width: 64px;
+  height: 64px;
+  background: rgba(255,255,255,.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.2rem;
+}
+
+.promocao-icon i {
+  font-size: 1.8rem;
+  color: var(--white);
+}
+
+.promocao-content h2 {
+  color: var(--white);
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+.promocao-content p {
+  color: rgba(255,255,255,.92);
+  font-size: 1.05rem;
+  margin-bottom: 1.8rem;
 }
 
 /* ============================================

@@ -2,7 +2,7 @@
    WHATSAPP
    ============================================ */
 function openWhatsApp() {
-  const phone = '5531999990000'; // Altere para o número real
+  const phone = '5531999955215'; // Altere para o número real
   const msg = encodeURIComponent('Olá! Gostaria de saber mais sobre o Lar Maria e Chicho.');
   window.open(`https://api.whatsapp.com/send?phone=${phone}&text=${msg}`, '_blank');
 }

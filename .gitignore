@@ -1,0 +1,8 @@
+node_modules/
+package-lock.json
+screenshot.js
+screenshot_fullpage.png
+pdf_all_streams.txt
+pdf_debug2.txt
+pdf_decoded.txt
+pdf_stream_text.txt
