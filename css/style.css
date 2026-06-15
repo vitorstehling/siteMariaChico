@@ -257,6 +257,69 @@ section { padding: 5rem 0; }
 }
 
 /* ============================================
+   LIDERANÇA ESPECIALIZADA
+   ============================================ */
+#lideranca {
+  position: relative;
+  background: var(--primary-d);
+  padding: 5rem 0;
+}
+
+.lideranca-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 3.5rem;
+  align-items: center;
+}
+
+.lideranca-img-wrap {
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0,0,0,.25);
+}
+
+.lideranca-img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  display: block;
+}
+
+.lideranca-texto {
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+
+.lideranca-texto p {
+  color: rgba(255,255,255,.92);
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+.lideranca-detalhe {
+  color: rgba(255,255,255,.85) !important;
+  font-size: .95rem !important;
+  margin: 0 !important;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.lideranca-detalhe i {
+  color: var(--accent);
+  flex-shrink: 0;
+}
+
+@media (max-width: 900px) {
+  .lideranca-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .lideranca-img { height: 280px; }
+}
+
+/* ============================================
    PROMOÇÃO
    ============================================ */
 #promocao {
