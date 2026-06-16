@@ -773,3 +773,29 @@ footer p { margin: 0; font-size: .85rem; }
     font-size: 1.3rem;
   }
 }
+
+/* ==========================================
+   INSTAGRAM BUTTON (topbar) – estilo pill
+   ========================================== */
+.topbar-ig {
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+  color: var(--white);
+  cursor: pointer;
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  padding: .2rem .8rem;
+  border-radius: 50px;
+  font-weight: 700;
+  transition: background var(--transition), transform var(--transition), opacity var(--transition);
+}
+
+.topbar-ig:hover {
+  opacity: .85;
+  transform: translateY(-1px);
+}
+
+.topbar-ig i {
+  font-size: 1rem;
+  color: var(--white);
+}
